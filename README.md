@@ -1,4 +1,4 @@
-# Tropa Digital Front-End Challeneg
+# Tropa Digital Front-End Challenge
 
 > Developed
 
