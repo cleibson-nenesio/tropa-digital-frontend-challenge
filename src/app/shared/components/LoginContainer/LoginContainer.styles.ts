@@ -36,13 +36,11 @@ export const ImageLogin = styled.img`
 export const LoginWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 468px;
 
   h2 {
     font-size: 0;
-    margin-bottom: 44px;
-    align-self: center;
+    padding: 70px 84px 0;
   }
 
   form {
@@ -54,10 +52,12 @@ export const LoginWrapper = styled.div`
     h3 {
       font-size: 25px;
       margin-bottom: 20px;
+      line-height: 46px;
 
       span {
         color: #ff6c22;
         opacity: 1;
+        font-size: 29px;
       }
     }
 
