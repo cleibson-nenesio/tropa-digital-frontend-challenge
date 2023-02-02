@@ -10,6 +10,4 @@ export const WrapperMain = styled.main<Props>`
     background-color: ${(props) => props.bgColor};
 
     display: flex;
-    justify-content: center;
-    align-items: center;
 `

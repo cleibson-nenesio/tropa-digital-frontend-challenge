@@ -12,7 +12,6 @@ import {
 } from "./LoginContainer.styles";
 import { Button } from "../../styles/Button";
 import { useState } from "react";
-import { Icon } from "@mui/material";
 
 const LoginContainer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,7 +21,7 @@ const LoginContainer = () => {
       <LoginWrapper>
         <h2>
           <img src={TropaLogo} alt="Tropa Digital" />
-          Tropa Digital
+          Tropa Digital Login
         </h2>
 
         <form>
@@ -45,7 +44,7 @@ const LoginContainer = () => {
               onClick={() => setIsVisible(!isVisible)}
             />
           </PasswordContainer>
-          <Button to="/home">Acessar</Button>
+          <Button to="/home" isActive={false}>Acessar</Button>
         </form>
       </LoginWrapper>
       <ImageLogin src={NotebookLogin} alt="person typing on a notebook" />

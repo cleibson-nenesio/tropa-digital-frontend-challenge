@@ -1,6 +1,5 @@
-import { Components, Icon } from "@mui/material";
+import { Icon } from "@mui/material";
 import styled from "styled-components";
-import LoginBg from "../../assets/images/space-login-bg.png";
 
 type Props = {
   component: unknown;
@@ -9,11 +8,14 @@ type Props = {
 export const LoginContainerWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  align-self: center;
+  margin: 0 auto;
   background-color: #ffffff;
   position: relative;
   width: 857px;
   height: 511px;
   border-radius: 4px;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
 
   @media (max-width: 860px){
     max-width: 480px;
@@ -46,7 +48,7 @@ export const LoginWrapper = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    color: #8f8f8f;
+    color: #8F8F8F;
     padding: 44px 60px;
 
     h3 {
@@ -68,6 +70,7 @@ export const LoginWrapper = styled.div`
       border: 1px solid rgba(0, 0, 0, 0.1);
       font-family: "Advent Pro", sans-serif;
       margin-bottom: 13px;
+      max-width: 313px;
 
       @media (max-width: 860px) {
         font-size: 17px;
@@ -87,7 +90,7 @@ export const PasswordContainer = styled.div`
 
 export const TogglePassword = styled(Icon)<Props>`
   position: absolute;
-  right: 13px;
+  right: 47px;
   top: 10px;
   cursor: pointer;
 `;
