@@ -44,7 +44,7 @@ const LoginContainer = () => {
               onClick={() => setIsVisible(!isVisible)}
             />
           </PasswordContainer>
-          <Button to="/home" isActive={false}>Acessar</Button>
+          <Button to="/home">Acessar</Button>
         </form>
       </LoginWrapper>
       <ImageLogin src={NotebookLogin} alt="person typing on a notebook" />

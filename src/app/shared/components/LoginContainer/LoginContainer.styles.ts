@@ -12,14 +12,12 @@ export const LoginContainerWrapper = styled.div`
   margin: 0 auto;
   background-color: #ffffff;
   position: relative;
-  width: 857px;
-  height: 511px;
+  max-width: 857px;
   border-radius: 4px;
   box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
 
-  @media (max-width: 860px){
-    max-width: 480px;
-    margin: 20px;
+  @media (max-width: 475px){
+    max-width: 380px;
   }
 
   > img {
@@ -43,6 +41,11 @@ export const LoginWrapper = styled.div`
   h2 {
     font-size: 0;
     padding: 70px 84px 0;
+
+    @media (max-width: 475px){
+    padding: 40px 0 0;
+    text-align: center;
+  }
   }
 
   form {
@@ -93,4 +96,8 @@ export const TogglePassword = styled(Icon)<Props>`
   right: 47px;
   top: 10px;
   cursor: pointer;
+
+  @media (max-width: 475px) {
+    right: 10px;
+  }
 `;

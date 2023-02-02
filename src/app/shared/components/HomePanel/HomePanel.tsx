@@ -5,9 +5,7 @@ import { HomePanelWrapper } from "./HomePanel.styles"
 const HomePanel = () => {
     const cards = new Array(6)
     cards.fill("str")
-
-    console.log(cards);
-
+    
     return (
         <HomePanelWrapper>
             <Header />

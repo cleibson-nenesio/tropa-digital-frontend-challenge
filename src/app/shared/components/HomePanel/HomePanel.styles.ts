@@ -5,4 +5,8 @@ export const HomePanelWrapper = styled.section`
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    @media (max-width: 980px) {
+        padding-left: 110px;
+    }
 `

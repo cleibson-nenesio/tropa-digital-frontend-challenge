@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const CardsList = styled.ul`
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px;
   list-style: none;
 `
 
@@ -11,6 +11,7 @@ export const CardWrapper = styled.li`
   padding: 15px 20px;
   background-color: #ffffff;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+  min-width: 286px;
   max-width: 482px;
   border-radius: 6px;
 
